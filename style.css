@@ -107,7 +107,7 @@ section.imagem > pre {
 }
 
 section#img01 {
-    background: url('../DESAFIO12/imagens/background001.jpg');
+    background: url('../projeto-cordel/imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
@@ -116,7 +116,7 @@ section#img01 {
 }
 
 section#img02 {
-    background: url(../DESAFIO12/imagens/background002.jpg);
+    background: url('../projeto-cordel/imagens/background002.jpg');
     background-attachment: fixed;
 }
 
