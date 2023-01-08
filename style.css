@@ -65,7 +65,7 @@ section  {
     padding-left: 30px;
     font-family: var(--font3);
     padding: 30px;
-    text-align: justify;
+    
    
     
     
@@ -76,7 +76,7 @@ section  {
 section > pre {
     font-family: var(--font3);
     font-size: 3.5vw;
-    
+    line-height: 1.2em;
   
 }
 
@@ -84,21 +84,29 @@ section > pre {
 section.normal {
     background-color: white;
     color: black;
+    line-height: 2em;
+}
+
+section.normal > pre {
+    text-align: justify;
 }
 
 section.imagem {
     
- box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.719); 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.719); 
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    background-size: cover;
+    font-family: var(--font3);
+    font-size: 2.5vw;
 }
 
 section.imagem > pre {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.418);
-    color: white;
-    text-shadow: 1px 1px 0px black;
-    background-size: cover;
-    font-family: var(--font3);
-    font-size: 3.5vw;
+   
+    
+    
     
     
     
